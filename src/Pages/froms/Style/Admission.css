@@ -1,0 +1,90 @@
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.admissions-container {
+  max-width: 550px;
+  /* margin: 0px; */
+  padding: 10px 30px;
+  background: #d1d8eee0;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeSlideIn 0.6s ease-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  
+}
+
+.forms-title {
+  text-align: center;
+  color: #4025df;
+  margin-bottom: 20px;
+  font-weight: bold;
+  animation: fadeSlideIn 0.8s ease;
+}
+
+.admissions-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.forms-group {
+  display: flex;
+  
+}
+
+.forms-label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #000000;
+  display: flex;
+  width: 150px;
+}
+
+.forms-input {
+  padding: 3px;
+  border: 1px solid #311da7d8;
+  border-radius: 6px;
+  font-size: 1em;
+  display: flex;
+  width: 300px;
+  color: rgb(151, 55, 240);
+  background-color: #cccccc00;
+  transition: all 0.3s ease-in-out;
+}
+.forms-input:hover {
+  box-shadow: 0 0 8px rgba(210, 255, 10, 0.829);  
+}
+
+
+.forms-input:focus {
+  border-color: #d0ff00;
+  box-shadow: 0 0 6px rgba(208, 255, 0, 0.6);
+  background-color: #ffffff;
+  outline: none;
+}
+
+.submit-btns {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.submit-btns:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+

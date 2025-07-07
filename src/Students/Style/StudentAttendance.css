@@ -1,0 +1,82 @@
+.attendance-container {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9ff;
+  min-height: 100vh;
+}
+
+.attendance-container h2 {
+  color: #0044cc;
+  margin-bottom: 20px;
+}
+
+.summary {
+  margin-bottom: 20px;
+  background-color: #eaf3ff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.attendance-table th,
+.attendance-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.attendance-table th {
+  background-color: #0044cc;
+  color: white;
+}
+
+.attendance-table tr.present td {
+  background-color: #d4f8d4;
+}
+
+.attendance-table tr.absent td {
+  background-color: #ffd6d6;
+}
+
+.mark-attendance {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.present-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.absent-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.already-marked {
+  color: #007bff;
+  font-weight: bold;
+}
+

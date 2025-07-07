@@ -1,0 +1,17 @@
+
+.react-calendar {
+  border: none;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  /* padding: 10px; */
+}
+
+.box {
+  background-color: #f8f8ff;
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}

@@ -1,0 +1,146 @@
+.attendance-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  background-color: #f0f4ff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+  height: 80vh;
+}
+
+.attendance-container h2 {
+  text-align: center;
+  color: #3b278b;
+  margin-bottom: 10px;
+}
+
+.attendance-container h4 {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.mark-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.mark-section select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.mark-section button {
+  padding: 10px 20px;
+  background-color: #3b278b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mark-section button:hover:enabled {
+  background-color: #4f36a0;
+}
+
+.mark-section button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.filter-section label {
+  font-weight: bold;
+  color: #444;
+}
+
+.filter-section input[type="date"] {
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+.filter-section button {
+  padding: 8px 15px;
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-section button:hover {
+  background-color: #21867a;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.attendance-table th,
+.attendance-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.attendance-table th {
+  background-color: #3b278b;
+  color: #fff;
+}
+
+.attendance-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.attendance-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+.attendance-table-body-scroll {
+  max-height: 200px; /* Set height as needed */
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+.inner-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.inner-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.inner-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.inner-table tr:hover {
+  background-color: #f1f1f1;
+}

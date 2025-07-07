@@ -1,0 +1,95 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  
+}
+
+/* Left panel */
+.left-panel {
+  flex: 1;
+  background-image: url('../../assets/fromback.jpg');
+  /* background:url('../../assets/from\ back.jpg');  */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600PX;
+  border-radius: 60px;
+  margin-right: 5px;
+}
+
+.e-learning-box {
+  background: rgba(235, 15, 15, 0.479);
+  padding: 30px;
+  border-radius: 50px;
+  text-align: left;
+  width: 450px;
+  height: 400px;
+  border: 2px solid white;
+}
+
+.e-learning-box h2 {
+  margin-bottom: 10px;
+}
+
+.e-learning-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.e-learning-box li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.manual-buttons button {
+  margin: 50px 5px 0 40px;
+  padding: 5px;
+  border: 5px solid rgba(38, 0, 255, 0.699);
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #0057b300;
+  color: white;
+  
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  padding-left:340px;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  max-height: 90vh;
+  overflow-y: auto;
+  width: 800px;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 40px;
+  right: 460px;
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.right-panel{
+  background-image: url('../../assets/loginback.jpg');
+  border-radius: 60px;
+}

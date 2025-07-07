@@ -1,0 +1,82 @@
+.student-dashboard {
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #dce9f9, #f0f8ff);
+  min-height: 80vh;
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.student-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.student-header h1 {
+  color: #1c2b5a;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.student-header button {
+  padding: 10px 18px;
+  background-color: #e63946;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.student-header button:hover {
+  background-color: #c92432;
+}
+
+.student-info-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+.student-info-card:hover {
+  transform: scale(1.01);
+}
+
+.student-info-card h3 {
+  color: #0044cc;
+  font-size: 22px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #d1d9f5;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.student-info-card p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.student-info-card p strong {
+  display: inline-block;
+  width: 140px;
+  color: #2a2a2a;
+}
+
+.student-info-card p:nth-child(2) {
+  background: #f1f7ff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  width: fit-content;
+  font-weight: bold;
+  color: #0044cc;
+}
