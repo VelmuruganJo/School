@@ -49,7 +49,7 @@ function LoginPage() {
         localStorage.setItem('role', response.data.role);
 
         if (response.data.role === 'STUDENT') {
-          navigate('Jovel-student/student-home');
+          navigate('Jovel-student/student-dashboard');
         } else {
           alert('Access denied: Not a student');
         }

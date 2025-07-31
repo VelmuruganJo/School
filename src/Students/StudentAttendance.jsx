@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import '../Pages/sytle/SchoolStudent.css'
+import './sytle/SchoolStudent.css'
 
 function StudentAttendance() {
   const navigate = useNavigate();

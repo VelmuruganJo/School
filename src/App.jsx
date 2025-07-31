@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './Pages/homepage';
+import HomePage from './Pages/Homepage';
 import DashboardLayout from './Pages/DashboardLayout';
 import ProtectedRoute from './components/ProtectedRoute';
 import TeacherAdmissionFrom from './Pages/froms/TeacherAdmission';
